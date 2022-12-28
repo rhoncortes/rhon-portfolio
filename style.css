@@ -1,0 +1,79 @@
+.sampleclassonly {
+font-size: 20px;
+font-weight: bold;
+color:aqua;
+background-color: crimson;
+margin: 100px 200px 20px;
+animation: motion 5s linear infinite;
+}
+@keyframes motion{
+    100%{
+        transform: translateX(400px);
+    }
+}
+
+.hello {
+    height: 100%;
+    background-image: url(bodega%20all.JPG);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-style: double;
+    border-width: 15px;
+    border-color: rgba(207,90,54,0.2);
+    border-radius: 30px;
+    cursor:pointer;
+}
+.hello p {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 10px 5px 2px white;
+}
+ul {
+    list-style: square;
+}
+
+.font p:hover{
+    color: black;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+.demo {
+    width: 600px;
+    height: 600px;
+    background: #009688;
+    margin: 50px auto;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.demo-inner{
+    width: 150;
+    height: 150;
+    background: blue;
+    font-size: 24px;
+    color: #ffff;   
+}
+
+.demo-inner:nth-child(1):hover{
+    background: red;
+    flex-basis: 10%;
+}
+.demo-inner:nth-child(2):hover{
+    background: #8bc34a;
+    flex-basis: 20%;
+}
+.demo-inner:nth-child(3):hover{
+    background: #ffeb3b;
+    flex-basis: 20%;
+}
+.demo-inner:nth-child(4):hover{
+    background: #607db8;
+    flex-basis: 15%;
+}
